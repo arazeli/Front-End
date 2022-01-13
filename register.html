@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    
+    <form action="login.html">
+       <div>
+        <label for="name">Adınız</label>
+        <input type="text"name="name" id="name" maxlenght=20>
+        
+       </div>
+       
+       <div>
+        <label for="surname">Soyadınız</label>
+        <input type="text"name="surname" id="surname" maxlenght=20>
+        
+       </div>
+        
+         
+        </div>
+       
+         <div>
+         <label for="gmail">Email</label>
+          <input type="email"name="gmail" maxlenght=20>
+     
+       </div>
+       
+         <div>
+            <label for="parol">Parol</label>
+          <input type="password"name="parol" id="parol" >
+       
+         </div>
+
+
+        <div>
+            <label for="age">Yaşınız</label>
+            <input type="number"name="Yaşiniz" maxlenght=20>
+       
+        
+        </div>
+
+         <div>
+            <label for="brithday">Birthday:</label>
+            <input type="date" id="birthday" name="birthdate"  >
+        </div>
+
+          <div>
+             <p>Mesaj daxil edin:</p>
+              <textarea  id="intro" cols="25" rows="10" ></textarea>
+          </div>
+
+        <div>
+            <p>Proqram secin</p>
+            <label for="Html">Html</label>
+            <input type="radio" id="Html" name="proqram">
+             
+            <label for="C#">C#</label>
+            <input type="radio" id="C#" name="proqram">
+            
+            <label for="Css">Css</label>
+            <input type="radio" id="Css" name="proqram">
+            
+         <div>
+             <p>Ölkəni  seçin</p>
+             <label for="olkeler">Ölke</label>
+             <select  id="olkeler">
+             <option value="94">Azərbaycan</option>
+             <option value="62">İran</option>
+            </select>
+         </div>
+            
+
+        
+          <div>
+            <p>Reng secin</p>
+            <label for="Sari">Sari</label>
+            <input type="checkbox" id="Sari" >
+             
+            <label for="Qara">Qara</label> 
+            <input type="checkbox" id="Qara" >
+            
+            <label for="Yasil">Yasil</label>
+            <input type="checkbox" id="Yasil" > 
+          </div>
+          
+        <button type="submit">Yaddasaxla</button>
+        <button type="reset">Təmizlə</button>
+        
+
+
+    </form>
+     <style>
+         
+         body{
+             background-color: brown;
+             display: flex;
+             justify-content: center;
+             align-items: flex-start;
+             padding-top: 100px;
+         }
+         form{
+             width: 400px;
+             min-height: 300;
+             background-color: rgb(42, 165, 128);
+             padding: 25px;
+             display: flex;
+             flex-direction: column;
+             row-gap: 15px;
+         }
+         
+     </style>
+</body>
+</html>
