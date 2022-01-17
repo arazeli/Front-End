@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url("https://giffiles.alphacoders.com/200/200488.gif");
+    height: 110vh;
+    background-size:100% 100%;
+}
+
+
+.container .navbar{
+    width: 100%;
+    height: 50px;
+    background: rgba(22,112,214,0.4);
+}
+
+
+.navbar .logo{
+    color: rgba(226, 43, 104, 0.712);
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+.navbar ul{
+float: right;
+margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin: 5px;
+    line-break: 10px;
+    
+    
+}   
+.navbar ul li a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 20;
+    padding: 6px 13px;
+    font-family: Roboto;
+    
+    
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: yellowgreen;
+    border-radius: 2px;
+}
+
+.container .center{
+   position: absolute; 
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-family: sans-serif;
+   user-select: none;
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+    .center h2{
+        color: blueviolet;
+        font-size: 50px;
+        font-weight: bold;
+        width: 885px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .center .buttons{
+        margin: 35px 280px;
+    }
+    .buttons button{
+        height: 50px;
+        width: 150px;
+        font-size: 18px;
+        font-weight: bold;
+        color: chocolate;
+        background: cornflowerblue;
+        border: solid 1px rgba(139, 172, 23, 0.651);
+        cursor: pointer;
+        outline: none;
+        border-radius: 25px;
+
+        
+    }
+    
+    .buttons button:hover{
+        background: #fff;
+
+    }
+
+
